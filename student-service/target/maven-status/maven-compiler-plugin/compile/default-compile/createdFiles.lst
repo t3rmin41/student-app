@@ -1,9 +1,0 @@
-com/student/management/system/service/StudentService.class
-com/student/management/system/service/entity/Course.class
-com/student/management/system/service/mapper/StudentMapperWithDao.class
-com/student/management/system/service/mapper/CourseMapperWithDao.class
-com/student/management/system/service/CourseService.class
-com/student/management/system/service/entity/Student.class
-com/student/management/system/service/impl/StudentServiceImpl.class
-com/student/management/system/service/entity/DomainEntity.class
-com/student/management/system/service/impl/CourseServiceImpl.class
