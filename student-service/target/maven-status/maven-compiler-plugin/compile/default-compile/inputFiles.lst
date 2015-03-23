@@ -1,0 +1,9 @@
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/entity/DomainEntity.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/StudentService.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/entity/Student.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/mapper/CourseMapperWithDao.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/CourseService.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/impl/CourseServiceImpl.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/mapper/StudentMapperWithDao.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/impl/StudentServiceImpl.java
+/home/nikzgs/Eclipse/workspace/student-app/student-service/src/main/java/com/student/management/system/service/entity/Course.java
