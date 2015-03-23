@@ -45,29 +45,6 @@ public class CourseController {
 	
 	@RequestMapping(value = "/list/csv", method = RequestMethod.POST, produces = {"text/csv; charset=utf-8"})
 	public void courseListCsv(HttpServletResponse response, @RequestBody Map<String,String> searchCriteria) throws IOException {
-		/*
-		String csvFileName = "courselist.csv";
- 
-        response.setHeader("Content-Disposition", String.format("attachment; filename=\"%s\"", csvFileName));
-        response.setHeader("Content-Type", "text/comma-separated-values");
- 
-        //response.setHeader("Content-Type", "text/csv");
- 
-        List<Course> courses = getCourseByCriteria(searchCriteria);
-        
-        // uses the Super CSV API to generate CSV data from the model data
-        ICsvBeanWriter csvWriter = new CsvBeanWriter(response.getWriter(), CsvPreference.STANDARD_PREFERENCE);
- 
-        String[] header = { "id", "coursename", "startTime", "endTime", "location" };
- 
-        csvWriter.writeHeader(header);
- 
-        for (Course course : courses) {
-            csvWriter.write(course, header);
-        }
- 
-        csvWriter.close();
-        /**/
         
         response.setContentType("text/csv");
 		String csvFileName = "courselist.csv";
