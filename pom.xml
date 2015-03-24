@@ -152,12 +152,6 @@
         <artifactId>maven-antrun-plugin</artifactId>
         <version>1.7</version>
 	</dependency>
-	<!-- For SuperCSV library -->
-	<dependency>
-    	<groupId>net.sf.supercsv</groupId>
-    	<artifactId>super-csv</artifactId>
-    	<version>2.1.0</version>
-	</dependency>
   </dependencies>
   <build>
     <finalName>student-site</finalName>
